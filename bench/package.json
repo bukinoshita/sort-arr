@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "array-sort": "^0.1.2",
+    "benchmark": "^2.1.4",
+    "cli-table2": "^0.2.0",
+    "sort-array": "^2.0.0"
+  }
+}
