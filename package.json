@@ -29,6 +29,7 @@
     "esnext": true,
     "rules": {
       "object-curly-spacing": 0
-    }
+    },
+    "ignores": ["bench/*.js"]
   }
 }
