@@ -1,12 +1,17 @@
 {
   "name": "sort-arr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tiny, fast and simplified array sort",
   "main": "index.js",
   "repository": "git@github.com:bukinoshita/sort-arr.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
-  "keywords": ["array", "arr", "sort", "sort-arr"],
+  "keywords": [
+    "array",
+    "arr",
+    "sort",
+    "sort-arr"
+  ],
   "scripts": {
     "test": "xo && ava",
     "bench": "node bench",
@@ -30,6 +35,8 @@
     "rules": {
       "object-curly-spacing": 0
     },
-    "ignores": ["bench/*.js"]
+    "ignores": [
+      "bench/*.js"
+    ]
   }
 }
