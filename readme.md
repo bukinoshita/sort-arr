@@ -1,6 +1,6 @@
 # sort-arr [![Build Status](https://travis-ci.org/bukinoshita/sort-arr.svg?branch=master)](https://travis-ci.org/bukinoshita/sort-arr)
 
-> A tiny (132b), fast and simplified array sort
+> A tiny (110B), fast and simplified array sort
 
 
 ## Install
@@ -56,13 +56,13 @@ Name of the object key
 // Fastest is sort-arr
 
 sort-array
-  --> 35,105 ops/sec ±4.24% (84 runs sampled) | Diff: N/A
+  --> 35,101 ops/sec ±4.01% (85 runs sampled) | Diff: N/A
 
 array-sort
-  --> 202,801 ops/sec ±7.68% (75 runs sampled) | Diff: 477.70% faster
+  --> 186,025 ops/sec ±8.78% (70 runs sampled) | Diff: 429.97% faster
 
 sort-arr
-  --> 953,347 ops/sec ±7.20% (78 runs sampled) | Diff: 370.09% faster
+  --> 1,014,953 ops/sec ±6.87% (76 runs sampled) | Diff: 445.60% faster
 ```
 
 

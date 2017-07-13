@@ -6,12 +6,7 @@
   "repository": "git@github.com:bukinoshita/sort-arr.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
-  "keywords": [
-    "array",
-    "arr",
-    "sort",
-    "sort-arr"
-  ],
+  "keywords": ["array", "arr", "sort", "sort-arr"],
   "scripts": {
     "test": "xo && ava",
     "bench": "node bench",
@@ -25,7 +20,7 @@
   "bundlesize": [
     {
       "path": "./index.js",
-      "threshold": "132B"
+      "threshold": "110B"
     }
   ],
   "xo": {
@@ -35,8 +30,6 @@
     "rules": {
       "object-curly-spacing": 0
     },
-    "ignores": [
-      "bench/*.js"
-    ]
+    "ignores": ["bench/*.js"]
   }
 }
